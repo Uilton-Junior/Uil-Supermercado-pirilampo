@@ -14,7 +14,7 @@ const getUniqueProductsAmount = () => {
 
 };
 
-console.log(getUniqueProductsAmount())
+//console.log(getUniqueProductsAmount())
 module.exports = { getUniqueProductsAmount };
 
 
