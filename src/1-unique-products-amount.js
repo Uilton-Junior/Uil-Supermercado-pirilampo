@@ -6,7 +6,13 @@ const getUniqueProductsAmount = () => {
   // crio uma let amount
   let amount = 0 
 
-  
+  // crio um loop for para percorrer todo o stockProducts
+
+  for(let index = 0 ; index < stockProducts.length ; index++){
+
+  }
+
+
 
 
 
