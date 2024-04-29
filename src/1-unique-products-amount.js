@@ -10,13 +10,15 @@ const getUniqueProductsAmount = () => {
 
   for(let index = 0 ; index < stockProducts.length ; index++){
 
+    // incrementa o contador a cada interação
+    amount++
+
   }
-
-
-
-
+  return amount
 
 };
+
+
 
 
 module.exports = { getUniqueProductsAmount };
