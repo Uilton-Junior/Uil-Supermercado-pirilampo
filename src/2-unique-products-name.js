@@ -7,7 +7,6 @@ const getUniqueProductsName = () => {
 
   let productList = []
 
- 
 };
 
 module.exports = { getUniqueProductsName };
