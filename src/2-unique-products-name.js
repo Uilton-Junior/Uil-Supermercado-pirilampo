@@ -23,5 +23,6 @@ const getUniqueProductsName = () => {
 return productList
 
 };
+console.log(getUniqueProductsName())
 
 module.exports = { getUniqueProductsName };
