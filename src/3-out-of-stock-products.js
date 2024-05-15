@@ -9,11 +9,11 @@ const getOutOfStockProducts = () => {
     let product = stockProducts[index]
 
     if(!( 'quantityInStock' in product) || typeof product.quantityInStock === 'string' || product.quantityInStock === 0){
-   
+    out.push(String(product.productName))
     }
   
   }
- 
+ return out
 };
 
 
