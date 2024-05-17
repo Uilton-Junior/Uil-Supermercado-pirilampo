@@ -11,7 +11,7 @@ const getLowStockProducts = () => {
     if( product.quantityInStock > 0 && product.quantityInStock <= 10 ){
 
       lowStock.push(String( `${product.productName}: ${product.quantityInStock} unidades`))
-
+// Os elementos do array retornados devem estar no formato `{nome do produto}: {quantidade em estoque} unidades`;
     }
   
   }
