@@ -13,6 +13,7 @@ const getLowStockProducts = () => {
       lowStock.push(String( `${product.productName}: ${product.quantityInStock} unidades`))
 
     }
+  
   }
   return lowStock
 
