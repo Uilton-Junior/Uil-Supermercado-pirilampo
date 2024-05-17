@@ -8,12 +8,14 @@ const getProductsAmount = () => {
     let product = stockProducts[index]
     // se houver a chave 'quantityInStock' na let product e se valor for do tipo number...
     if('quantityInStock' in product && typeof product.quantityInStock === 'number'){
+
+      soma+= product.quantityInStock
      
      }
 
   }
- 
+  return soma
 };
-console.log(getProductsAmount())
+
 
 module.exports = { getProductsAmount };
