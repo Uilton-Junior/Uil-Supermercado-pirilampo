@@ -6,9 +6,11 @@ const getProductsAmount = () => {
   for(let index = 0 ; index < stockProducts.length ; index+=1){
   
     let product = stockProducts[index]
+    // se houver a chave 'quantityInStock' na let product e se valor for do tipo number...
     if('quantityInStock' in product && typeof product.quantityInStock === 'number'){
      
      }
+
   }
  
 };
