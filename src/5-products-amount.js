@@ -6,6 +6,9 @@ const getProductsAmount = () => {
   for(let index = 0 ; index < stockProducts.length ; index+=1){
   
     let product = stockProducts[index]
+    if('quantityInStock' in product && typeof product.quantityInStock === 'number'){
+     
+     }
   }
  
 };
