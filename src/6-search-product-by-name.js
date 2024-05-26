@@ -1,7 +1,15 @@
 const stockProducts = require('./data.json');
 
-const searchProductByName = () => {
-  // Desenvolva seu código dentro dessa função...
+
+
+const searchProductByName = (search) => {
+
+ if (!search) return null;
+ 
+
+
 };
 
 module.exports = { searchProductByName };
+
+
