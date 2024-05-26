@@ -14,7 +14,8 @@ if(!produto) return null;
 return {
 
   description: produto.description,
-  
+  formattedPrice: `R$ ${produto.price.toFixed(2)}`
+
 
 }
 
